@@ -1,0 +1,15 @@
+{
+  "name": "@arichiardi/honeysql-postgres",
+  "version": "0.9.1",
+  "author": "Andrea Richiardi",
+  "license": "Unlicense",
+  "homepage": "https://github.com/arichiardi/honeysql-postgres",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arichiardi/honeysql-postgres"
+  },
+  "directories": {
+    "lib": "src",
+    "cache": "./lumo-cache"
+  }
+}

@@ -75,6 +75,9 @@
 (defmethod fn-handler "default" [_ value]
   (str "DEFAULT " (sqlf/to-sql value)))
 
+(defmethod fn-handler "primary-key" [_ & args]
+  (str "PRIMARY KEY" (util/comma-join-args args)))
+
 (defmethod fn-handler "nextval" [_ value]
   (str "nextval('" (sqlf/to-sql value) "')"))
 
